@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: Arial, sans-serif;
+    
 }
 
 .containers {
@@ -55,7 +57,7 @@ nav {
 }
 
 .nav-links li a:hover {
-    background-color: #474747;
+    background-color: #b65800c3;
 }
 
 .content {
@@ -63,4 +65,7 @@ nav {
     text-align: center;
     background-color: black;
     color: orange;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
